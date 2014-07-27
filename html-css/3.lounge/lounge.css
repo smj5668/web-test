@@ -1,0 +1,42 @@
+h1
+{
+	color: rgb(255, 40, 83);
+	border-bottom: 1px red solid;
+	background-color: aqua;
+}
+p{
+	color: rgb(204, 14, 221);
+}
+
+em{
+	color: green;
+}
+
+h2{
+	border-bottom: 1px green solid;
+	color: blue
+;
+	font-family: fantasy;
+	background-color: aquamarine;
+}
+
+p.green
+{
+	color: green;
+}
+
+p.blue
+{
+	color: blue;
+
+}
+
+p.purple
+{
+	color: purple;
+}
+
+p.red
+{
+	color: red;
+}

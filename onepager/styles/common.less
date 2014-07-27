@@ -1,0 +1,12 @@
+.msopacity(@opacity:100)
+{
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=@{opacity})";
+	filter: alpha(opacity=@opacity);
+}
+
+.borderradius(@radius:1)
+{
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}

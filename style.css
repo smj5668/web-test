@@ -1,0 +1,160 @@
+body {
+  /*bgc*/
+  background-color: #f0f0f0;
+}
+#header,
+#content-wrapper {
+  /*w*/
+  width: 900px;
+  /*m0-auto*/
+  margin: 0 auto;
+}
+#header {
+  /*h65*/
+  height: 65px;
+}
+/*로고*/
+#logo {
+  /*fll*/
+  float: left;
+  /*pr45*/
+  padding-right: 45px;
+}
+#logo img {
+  height: 60px;
+}
+#logo p {
+  border-image-width: width: 95px;
+}
+/*네비*/
+#navi {
+  /*fl-l*/
+  float: left;
+}
+#navi li {
+  /*mt25*/
+  margin-top: 25px;
+  /*fl-l*/
+  float: left;
+  /*w125*/
+  width: 125px;
+  /*h40*/
+  height: 40px;
+  /*p60-15*/
+  /*padding: 60px 15px;*/
+  text-align: center;
+  background-color: black;
+}
+#navi li a {
+  color: white;
+  /*va-15*/
+  vertical-align: -15px;
+  /*td-n*/
+  text-decoration: none;
+}
+/*컨텐츠*/
+#content-wrapper {
+  padding: 10px 10px;
+  background-color: #000000;
+}
+#content {
+  /*bc*/
+  background-color: #ffffff;
+}
+/*검색영역*/
+#search-panel {
+  /*p10*/
+  padding: 10px;
+  /*bdb+*/
+  border-bottom: 1px solid black;
+}
+#search-panel button {
+  /*fl-r*/
+  float: right;
+}
+#search-panel select,
+#search-panel input {
+  /*w100*/
+  width: 100px;
+}
+/*그리드패널*/
+#grid-panel {
+  /*m10*/
+  margin: 10px;
+  /*h200*/
+  height: 200px;
+  /*bd+*/
+  border: 1px solid #000;
+  /*ova*/
+  overflow: auto;
+}
+#grid-panel table {
+  width: 100%;
+  /*ta-c*/
+  text-align: center;
+}
+#grid-panel table tr td {
+  /*bgc*/
+  background-color: #A7C942;
+  color: white;
+  /*bd+*/
+  border: 1px solid #4260C9;
+  height: 25px;
+  /*va-m*/
+  vertical-align: middle;
+}
+#grid-panel table tr th {
+  background-color: blue;
+  color: yellow;
+}
+form#detail-form {
+  padding: 10px;
+}
+form#detail-form #crud-panel button {
+  /*fl-r*/
+  float: right;
+}
+#detail-panel {
+  /*m20*/
+  margin: 20px;
+  /*cb*/
+  clear: both;
+}
+#detail-panel label {
+  /*w100*/
+  width: 100px;
+  /*d-ib*/
+  display: inline-block;
+  /*mb10*/
+  margin-bottom: 10px;
+}
+#detail-panel input {
+  /*w296*/
+  width: 296px;
+  /*mb10*/
+  margin-bottom: 10px;
+}
+#detail-panel select {
+  /*w300*/
+  width: 300px;
+  /*mb10*/
+  margin-bottom: 10px;
+}
+input#detail-sabun,
+input#detail-password,
+select#detail-dept,
+input#detail-inco-day {
+  /*mr20*/
+  margin-right: 20px;
+}
+#footer {
+  padding: 10px;
+  /*ta-c*/
+  text-align: center;
+  /*bgc*/
+  background-color: black;
+  /*c*/
+  color: white;
+  /*bdt+*/
+  border-top: 1px solid #414141;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>인사관리</title>
+	<link rel="stylesheet" href="reset.css">
+	<style>
+
+	body
+	{
+		/*bgc*/
+		background-color: #f0f0f0;
+
+	}
+	#header,#content-wrapper
+	{
+		/*w*/
+		width: 900px;
+		/*m0-auto*/
+		margin: 0 auto;
+	}
+	#header
+	{
+		/*h65*/
+		height: 65px;
+	}
+	
+
+/*로고*/
+
+
+	#logo
+	{
+		/*fll*/
+		float: left;
+		/*pr45*/
+		padding-right: 45px;
+	}
+
+	#logo img
+	{
+		/*h60*/
+		height: 60px;
+	}
+
+	#logo p
+	{
+		/*d-ib*/
+		display: inline-block;
+		/*w95*/
+		width: 95px;
+	}
+	/*네비*/
+	#navi
+	{
+		/*fl-l*/
+		float: left;
+	}
+
+	#navi li
+	{
+		/*mt25*/
+		margin-top: 25px;
+		/*fl-l*/
+		float: left;
+		
+		/*w125*/
+		width: 125px;
+		/*h40*/
+		height: 40px;
+
+		/*p60-15*/
+		/*padding: 60px 15px;*/
+		text-align: center;
+		background-color: black;
+	}
+
+
+	#navi li a
+	{
+		color: white;
+		/*va-15*/
+		vertical-align: -15px;
+		/*td-n*/
+		text-decoration: none;
+		
+	}
+	
+	/*컨텐츠*/
+
+	#content-wrapper
+	{
+		padding: 10px 10px;
+		background-color: black;
+
+	}
+
+	#content
+	{
+		/*bc*/
+		background-color: white;
+	}
+	
+	#write-panel
+	{
+		padding: 10px;
+		
+
+	}
+
+	#write-panel button
+	{
+		float: right;
+	}
+
+	.clear-fix
+	{
+		overflow: auto;
+	}
+	
+
+	#grid-panel
+	{
+		/*margin-top: 10px;*/
+		border-top: 1px solid #000;
+		clear: both;
+		overflow: auto;
+		height: 600px;
+		text-align: center;
+	}
+
+	#grid-panel table
+	{
+		width: 100%;
+	}
+
+	#grid-panel table thead td
+	{
+		background-color: blue;
+		color: white;
+		padding: 10px;
+	}
+	#grid-panel table tbody td{
+		padding: 10px;
+		border:p1px solid #000;
+	}
+	
+	
+	
+	/*푸터*/
+	#footer
+	{
+		padding: 10px;
+		/*ta-c*/
+		text-align: center;
+		/*bgc*/
+		background-color: black;
+		/*c*/
+		color: white;
+		/*bdt+*/
+		border-top: 1px solid #414141;
+	}
+
+
+		
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="logo.gif"/>
+			<p>Common Management System</p>
+		</div>
+	
+
+	<ul id="navi">
+		<li><a href="main.html">Main</a></li>
+		<li><a href="codeMnge.html">코드관리</a></li>
+		<li><a href="userMnge.html">인사관리</a></li>
+		<li><a href="mnge.html">관리</a></li>
+	</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<div id="write-panel" class="clear-fix">
+				<button>글쓰기</button>
+			</div>
+			<div id="grid-panel">
+				<!-- table>(thead>tr>th*4)+(tbody>(tr>td*4)) -->
+				<table>
+					<thead>
+						<tr>
+							<td>글번호</td>
+							<td>제목</td>
+							<td>게시자</td>
+							<td>게시일</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>공지사항</td>
+							<td>손민재</td>
+							<td>2014-07-26</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>공지사항</td>
+							<td>손민재</td>
+							<td>2014-07-26</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>공지사항</td>
+							<td>손민재</td>
+							<td>2014-07-26</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="footer">동서대학교 웹 교육</div>
+</body>
+</html>
